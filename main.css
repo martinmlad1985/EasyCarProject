@@ -25,7 +25,7 @@ body {
   .block1-wrapper .container-fluid {
     margin-top: 1rem; }
     .block1-wrapper .container-fluid .col {
-      border: 2px solid green; }
+      border: 2px solid blue; }
       .block1-wrapper .container-fluid .col_logotype {
         background-image: url("img/Layer1/Logotype.png");
         width: 22.9rem;

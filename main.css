@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -21,26 +20,51 @@ body {
 .block1-wrapper {
   width: 213.6rem;
   height: 84.3rem;
-  background-color: #0A192C; }
-  .block1-wrapper .container-fluid {
-    margin-top: 1rem; }
-    .block1-wrapper .container-fluid .col {
-      border: 2px solid orange; }
-      .block1-wrapper .container-fluid .col_logotype {
-        background-image: url("img/Layer1/Logotype.png");
-        width: 22.9rem;
-        height: 7.6rem; }
-      .block1-wrapper .container-fluid .col_warszawa {
-        background-image: url("img/Layer1/Warszawa.png");
-        width: 29.5rem;
-        height: 3.9rem; }
-      .block1-wrapper .container-fluid .col_time {
-        background-image: url("img/Layer1/Время_работы.png");
-        width: 13.4rem;
-        height: 3.6rem; }
-      .block1-wrapper .container-fluid .col_pfone {
-        background-image: url("img/Layer1/Телефон.png");
-        width: 36.1rem;
-        height: 5.1rem; }
+  background-color: #0A192C;
+  position: relative; }
+  .block1-wrapper div {
+    position: absolute;
+    border: 1px solid red; }
+    .block1-wrapper div.logotype {
+      width: 22.9rem;
+      height: 7.6rem;
+      left: 37.4rem;
+      top: 4.8rem; }
+    .block1-wrapper div.warszawa {
+      width: 29.5rem;
+      height: 3.9rem;
+      left: 64.6rem;
+      top: 8.6rem; }
+      .block1-wrapper div.warszawa span {
+        color: #bebcbc;
+        font-family: "TT Norms";
+        font-size: 16px;
+        font-weight: 400; }
+        .block1-wrapper div.warszawa span.one {
+          color: #ffffff;
+          font-family: "TT Norms - Bold";
+          font-weight: 700; }
+        .block1-wrapper div.warszawa span.two {
+          font-family: "TT Norms Regular";
+          font-weight: 400;
+          line-height: 23px; }
+    .block1-wrapper div.time {
+      width: 13.4rem;
+      height: 3.6rem;
+      left: 101.5rem;
+      top: 8.6rem; }
+      .block1-wrapper div.time span {
+        color: #bebcbc;
+        font-family: "TT Norms";
+        font-size: 16px;
+        font-weight: 400; }
+        .block1-wrapper div.time span.one {
+          color: #ffffff;
+          font-family: "TT Norms - Bold";
+          font-weight: 700; }
+        .block1-wrapper div.time span.two {
+          font-family: "TT Norms Regular";
+          font-weight: 400;
+          line-height: 23px; }
 
 /*# sourceMappingURL=main.css.map */

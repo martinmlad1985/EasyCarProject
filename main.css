@@ -1,0 +1,47 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background-color: #ffffff; }
+
+.project-wrapper {
+  width: 200rem;
+  border: 0.4rem solid red;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white; }
+
+.block1-wrapper {
+  width: 213.6rem;
+  height: 84.3rem;
+  background-color: #0A192C; }
+  .block1-wrapper .container-fluid {
+    margin-top: 1rem; }
+    .block1-wrapper .container-fluid .col {
+      border: 2px solid white;
+      background-size: cover; }
+      .block1-wrapper .container-fluid .col_logotype {
+        background-image: url("img/Layer1/Logotype.png");
+        width: 22.9rem;
+        height: 7.6rem; }
+      .block1-wrapper .container-fluid .col_warszawa {
+        background-image: url("img/Layer1/Warszawa.png");
+        width: 29.5rem;
+        height: 3.9rem; }
+      .block1-wrapper .container-fluid .col_time {
+        background-image: url("img/Layer1/Время_работы.png");
+        width: 13.4rem;
+        height: 3.6rem; }
+      .block1-wrapper .container-fluid .col_pfone {
+        background-image: url("img/Layer1/Телефон.png");
+        width: 36.1rem;
+        height: 5.1rem; }
+
+/*# sourceMappingURL=main.css.map */

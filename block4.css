@@ -1,0 +1,105 @@
+.block4-wrapper {
+  height: 852px;
+  border: 2px solid #0a192c;
+  margin-top: 97px;
+  margin-bottom: 50px;
+  background-color: #0a192c; }
+  .block4-wrapper__header {
+    color: #ffffff;
+    font-family: "TT Norms";
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 104px;
+    text-align: center; }
+  .block4-wrapper__dashed {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px; }
+  .block4-wrapper__content-wrapper {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .block4-wrapper__elem {
+    width: 296px;
+    height: 245px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .block4-wrapper__circle {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: #06101b;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+  .block4-wrapper__text {
+    color: white;
+    margin-top: 60px;
+    width: 200px;
+    height: 43px;
+    text-align: center;
+    font-family: "TT Norms";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.49px; }
+
+.img1 {
+  background-image: url("img/Layer4/img1.png"); }
+  .img1:hover {
+    background-image: url("img/Layer4/img11.png"); }
+
+.img2 {
+  background-image: url("img/Layer4/img2.png"); }
+  .img2:hover {
+    background-image: url("img/Layer4/img21.png"); }
+
+.img3 {
+  background-image: url("img/Layer4/img3.png"); }
+  .img3:hover {
+    background-image: url("img/Layer4/img31.png"); }
+
+.img4 {
+  background-image: url("img/Layer4/img4.png"); }
+  .img4:hover {
+    background-image: url("img/Layer4/img41.png"); }
+
+.img5 {
+  background-image: url("img/Layer4/img5.png"); }
+  .img5:hover {
+    background-image: url("img/Layer4/img81.png"); }
+
+.img6 {
+  background-image: url("img/Layer4/img6.png"); }
+  .img6:hover {
+    background-image: url("img/Layer4/img61.png"); }
+
+.img7 {
+  background-image: url("img/Layer4/img7.png"); }
+  .img7:hover {
+    background-image: url("img/Layer4/img71.png"); }
+
+.img8 {
+  background-image: url("img/Layer4/img8.png"); }
+  .img8:hover {
+    background-image: url("img/Layer4/img81.png"); }
+
+/*# sourceMappingURL=block4.css.map */

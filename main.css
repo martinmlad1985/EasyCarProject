@@ -1,70 +1,261 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
-
-html {
-  font-size: 10px; }
 
 body {
   background-color: #ffffff; }
 
 .project-wrapper {
-  width: 200rem;
-  border: 0.4rem solid red;
+  width: 2000px;
+  border: 4px solid red;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background-color: white; }
 
 .block1-wrapper {
-  width: 213.6rem;
-  height: 84.3rem;
   background-color: #0A192C;
+  border: 1px solid #0A192C;
   position: relative; }
-  .block1-wrapper div {
+  .block1-wrapper__layer9 {
     position: absolute;
-    border: 1px solid red; }
-    .block1-wrapper div.logotype {
-      width: 22.9rem;
-      height: 7.6rem;
-      left: 37.4rem;
-      top: 4.8rem; }
-    .block1-wrapper div.warszawa {
-      width: 29.5rem;
-      height: 3.9rem;
-      left: 64.6rem;
-      top: 8.6rem; }
-      .block1-wrapper div.warszawa span {
-        color: #bebcbc;
-        font-family: "TT Norms";
-        font-size: 16px;
-        font-weight: 400; }
-        .block1-wrapper div.warszawa span.one {
-          color: #ffffff;
-          font-family: "TT Norms - Bold";
-          font-weight: 700; }
-        .block1-wrapper div.warszawa span.two {
-          font-family: "TT Norms Regular";
-          font-weight: 400;
-          line-height: 23px; }
-    .block1-wrapper div.time {
-      width: 13.4rem;
-      height: 3.6rem;
-      left: 101.5rem;
-      top: 8.6rem; }
-      .block1-wrapper div.time span {
-        color: #bebcbc;
-        font-family: "TT Norms";
-        font-size: 16px;
-        font-weight: 400; }
-        .block1-wrapper div.time span.one {
-          color: #ffffff;
-          font-family: "TT Norms - Bold";
-          font-weight: 700; }
-        .block1-wrapper div.time span.two {
-          font-family: "TT Norms Regular";
-          font-weight: 400;
-          line-height: 23px; }
+    top: 0;
+    -webkit-animation: rrr 20s infinite linear;
+            animation: rrr 20s infinite linear; }
+  .block1-wrapper__layer8 {
+    position: absolute;
+    top: 0;
+    -webkit-animation: eee 20s infinite linear;
+            animation: eee 20s infinite linear; }
+  .block1-wrapper__layer7 {
+    position: absolute;
+    top: 0;
+    -webkit-animation: www 20s infinite linear;
+            animation: www 20s infinite linear; }
+  .block1-wrapper__layer1-2-3Super {
+    position: absolute;
+    top: 0;
+    -webkit-animation: qqq 20s infinite linear;
+            animation: qqq 20s infinite linear; }
+  .block1-wrapper__layer1-2-3 {
+    position: relative; }
+    .block1-wrapper__layer1-2-3 img {
+      position: absolute; }
+    .block1-wrapper__layer1-2-3 .page111 {
+      top: 156px; }
+    .block1-wrapper__layer1-2-3 .page3 {
+      left: 1300px;
+      top: 420px; }
+
+.block1-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  margin-top: 48px; }
+  .block1-up .warszawa {
+    margin-left: 60px; }
+  .block1-up .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 60px; }
+
+.block1-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 189px;
+  margin-bottom: 25px; }
+
+.fakeButton {
+  width: 314px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #ffbf00;
+  margin: 0 auto;
+  margin-bottom: 280px;
+  color: #0a192c;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: 1.86px;
+  text-align: center; }
+
+@-webkit-keyframes qqq {
+  0%, 25%, 100% {
+    opacity: 0; }
+  12% {
+    opacity: 1; } }
+
+@keyframes qqq {
+  0%, 25%, 100% {
+    opacity: 0; }
+  12% {
+    opacity: 1; } }
+@-webkit-keyframes www {
+  0%, 25%, 50%, 100% {
+    opacity: 0; }
+  37% {
+    opacity: 1; } }
+@keyframes www {
+  0%, 25%, 50%, 100% {
+    opacity: 0; }
+  37% {
+    opacity: 1; } }
+@-webkit-keyframes eee {
+  0%, 50%, 75%, 100% {
+    opacity: 0; }
+  62% {
+    opacity: 1; } }
+@keyframes eee {
+  0%, 50%, 75%, 100% {
+    opacity: 0; }
+  62% {
+    opacity: 1; } }
+@-webkit-keyframes rrr {
+  0%, 50%, 75%, 100% {
+    opacity: 0; }
+  87% {
+    opacity: 1; } }
+@keyframes rrr {
+  0%, 50%, 75%, 100% {
+    opacity: 0; }
+  87% {
+    opacity: 1; } }
+.block2-wrapper {
+  width: 1175px;
+  height: 683px;
+  border: 2px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 111px;
+  display: grid;
+  grid-template-areas: "h h h" "img1 img2 img3" "f f f";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 25px; }
+  .block2-wrapper__header {
+    color: #000000;
+    font-family: "TT Norms";
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    grid-area: h;
+    justify-self: center;
+    -ms-flex-item-align: top;
+        align-self: top; }
+  .block2-wrapper__step1 {
+    width: 375px;
+    height: 275px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    grid-area: img1;
+    position: relative; }
+    .block2-wrapper__step1:after {
+      content: "Находите нужное авто";
+      color: #000000;
+      font-family: "TT Norms";
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 13.49px;
+      position: absolute;
+      top: 323px;
+      left: 93px; }
+    .block2-wrapper__step1:before {
+      content: "1";
+      position: absolute;
+      width: 45px;
+      height: 45px;
+      background-color: #ffbf00;
+      border-radius: 50%;
+      line-height: 45px;
+      text-align: center;
+      top: -22px;
+      right: 30px;
+      font-weight: 900; }
+  .block2-wrapper__step2 {
+    width: 375px;
+    height: 275px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    grid-area: img2;
+    position: relative; }
+    .block2-wrapper__step2:after {
+      content: "Вместе выезжаем и покупаем его";
+      color: #000000;
+      font-family: "TT Norms";
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 13.49px;
+      position: absolute;
+      top: 323px;
+      left: 48px; }
+    .block2-wrapper__step2:before {
+      content: "2";
+      position: absolute;
+      width: 45px;
+      height: 45px;
+      background-color: #ffbf00;
+      border-radius: 50%;
+      line-height: 45px;
+      text-align: center;
+      top: -22px;
+      right: 30px;
+      font-weight: 900; }
+  .block2-wrapper__step3 {
+    width: 375px;
+    height: 275px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    grid-area: img3;
+    position: relative; }
+    .block2-wrapper__step3:after {
+      content: "В этот же день подписываем договор о продаже авто на части";
+      color: #000000;
+      font-family: "TT Norms";
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 13.49px;
+      position: absolute;
+      top: 323px;
+      left: 33px;
+      text-align: center;
+      margin-right: 33px; }
+    .block2-wrapper__step3:before {
+      content: "3";
+      position: absolute;
+      width: 45px;
+      height: 45px;
+      background-color: #ffbf00;
+      border-radius: 50%;
+      line-height: 45px;
+      text-align: center;
+      top: -22px;
+      right: 30px;
+      font-weight: 900; }
+  .block2-wrapper__footer {
+    color: #000000;
+    font-family: "TT Norms";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38.23px;
+    grid-area: f;
+    justify-self: center;
+    -ms-flex-item-align: end;
+        align-self: end;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

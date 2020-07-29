@@ -1,0 +1,132 @@
+%layer2__text-block
+	width: 45px
+	height: 45px
+	border-radius: 50%
+	background-color: #ffbf00
+	position: absolute
+	text-align: center
+	text-transform: uppercase
+	line-height: 42px
+	font-weight: 900
+	top: -22px
+	left: 80%	
+
+
+.layer2
+	&__middle
+		display: flex
+		margin-top: 89px
+		justify-content: space-between
+	&__elem
+		border-radius: 10px
+		width: 375px
+		height: 275px
+		&_img_1
+			background-image: url("../../img/Layer2/Слой_11.png")
+			background-size: cover
+			background-repeat: no-repeat
+			background-position: center
+			position: relative
+			&:after
+				content: "1"
+				@extend %layer2__text-block
+		&_img_2
+			background-image: url("../../img/Layer2/Слой_10.png")
+			background-size: cover
+			background-repeat: no-repeat
+			background-position: center
+			position: relative
+			&:after
+				content: "2"
+				@extend %layer2__text-block
+		&_img_3
+			background-image: url("../../img/Layer2/Слой_14.png")
+			background-size: cover
+			background-repeat: no-repeat
+			background-position: center
+			position: relative
+			&:after
+				content: "3"
+				@extend %layer2__text-block
+			&:hover
+				background-image: url("../../img/Layer2/Слой_1414.png"), url("../../img/Layer2/Слой_14.png")
+				background-repeat: no-repeat
+				background-position: center, center
+	// &__middle2
+	// 	display: flex
+	// 	justify-content: space-between
+	// 	margin-top: 48px
+	&__elem2
+		width: 375px
+		text-align: center
+		// font-family: "TT Norms"
+		font-size: 18px
+		font-weight: 700
+		line-height: 27.49px
+		// padding: 0 50px
+	&__footer
+		padding: 0 216px
+		// font-family: "TT Norms"
+		font-size: 20px
+		font-weight: 700
+		line-height: 38.23px
+		text-align: center
+		margin-top: 60px
+
+@media (min-width: 320px)
+	.layer2
+		&__middle
+			flex-direction: column
+			align-items: center
+		&__footer
+			display: none
+		&__elem 
+			width: 320px
+		&__elem2
+			width: 320px
+
+@media (min-width: 480px)
+	.layer2
+		&__elem
+			width: 375px
+		&__elem2
+			width: 375px	
+
+@media (min-width: 576px)
+	.layer2
+		&__footer
+			display: block
+			padding: 0 30px
+
+@media (min-width: 992px)
+	.layer2
+		&__footer
+			padding: 0 100px
+		&__middle
+			flex-direction: row
+			flex-wrap: wrap
+			justify-content: space-around
+
+@media (min-width: 1200px)
+	.layer2
+		&__footer
+			padding: 0 216px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

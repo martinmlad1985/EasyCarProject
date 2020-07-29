@@ -21,10 +21,27 @@
       
        <!-- Четыре плавно меняющихся изображений с автомобилями -->
        <div class="layer1-animation-background-with-car">
-           <div class="layer1-animation-background-with-car__layers1"></div>
-           <div class="layer1-animation-background-with-car__layers2"></div>
-           <div class="layer1-animation-background-with-car__layers3"></div>
-           <div class="layer1-animation-background-with-car__layers4"></div>
+           <!-- Изображение №1 -->
+           <div class="layer1-animation-background-with-car__layers1">
+               <!-- Составная картинка из трёх изображений -->
+               <div class="layer1-image-from-car">
+                  <img src="img/Layer1/1.png" alt="ХРЮ" class="layer1-image-from-car__img1">
+                  <img src="img/Layer1/111.png" alt="" class="layer1-image-from-car__img2">
+                  <img src="img/Layer1/3.png" alt="" class="layer1-image-from-car__img3">
+               </div>
+           </div>
+           <!-- Изображение №2 -->
+           <div class="layer1-animation-background-with-car__layers2">
+               <img src="img/Layer1/Слой_7.png" alt="">
+           </div>
+           <!-- Изображение №3 -->
+           <div class="layer1-animation-background-with-car__layers3">
+               <img src="img/Layer1/Слой_8.png" alt="">
+           </div>
+           <!-- Изображение №4 -->
+           <div class="layer1-animation-background-with-car__layers4">
+               <img src="img/Layer1/Слой_9.png" alt="">
+           </div>
        </div>
        
        <!-- Начало верхней части слоя №1 -->
@@ -68,7 +85,7 @@
    </div>
    </div>
    <!-- Слой1 конец -->
-   
+
    <!-- Слой2 начало -->
    <div class="layer2">
     <div class="block-wrapper-with-little-size">
@@ -80,18 +97,14 @@
      <!-- Хэдер конец -->
      <!-- Средняя часть начало -->
      <div class="layer2__middle">
-       <div>
-         <div class="layer2__elem   layer2__elem_img_1"></div>
+         <div class="layer2__elem layer2__elem_img_1"></div>
+         <div class="layer2__elem layer2__elem_img_2"></div>
+         <div class="layer2__elem layer2__elem_img_3"></div>
+     </div>
+     <div class="layer2__middle2">
          <div class="layer2__elem2">Находите нужное авто</div>
-       </div>
-        <div>
-         <div class="layer2__elem   layer2__elem_img_2"></div>
          <div class="layer2__elem2">Вместе выезжаем и покупаем его</div>
-       </div>
-        <div>
-         <div class="layer2__elem   layer2__elem_img_3"></div>
          <div class="layer2__elem2">В этот же день подписываем договор о продаже авто на части</div>
-       </div>
      </div>
      <!-- Средняя часть конец -->
      <!-- футер начало -->
@@ -100,7 +113,7 @@
    </div>
    </div>
    <!-- Слой2 конец -->
-   
+
    <!-- Слой3 начало -->
    <div class="layer3">
      <div class="block-wrapper-with-little-size">
@@ -109,13 +122,12 @@
          <div class="header-manyBlocks__text">Калькулятор стоимости авто </div>
          <div class="header-manyBlocks__dashed"></div>
        </div>
-       <!-- Хэдер конец -->
        <!-- Блок инпутов начало -->
        <div class="layer3__inputs-block-wrapper">
 
           <div class="layer3__input-block">
             <span class="layer3__span">Первоначальный взнос:</span>
-            <select name="" class="layer3__input">
+            <select name="" id="" class="layer3__input">
               <option value="25">25</option>
               <option value="50">50</option>
               <option value="75">75</option>
@@ -129,7 +141,7 @@
 
           <div class="layer3__input-block">
             <span class="layer3__span">Срок аренды:</span>
-            <select name="" class="layer3__input">
+            <select name="" id="" class="layer3__input">
               <option value="3">3 мес</option>
               <option value="6">6 мес</option>
               <option value="9">9 мес</option>
@@ -155,11 +167,12 @@
        <!-- Футер начало -->
        <div class="layer3__footer">Расчёт предварительный. С результатом расчёта обратитесь  по телефону или заполните заявку.</div>
        <!-- Футер конец -->
+       <!-- Хэдер конец -->
      </div>
    </div>
    <!-- Слой3 конец -->
 
- <!-- Слой4 начало -->
+   <!-- Слой4 начало -->
    <div class="layer4">
      <div class="block-wrapper-with-dark-background">
        <!-- Хэдер начало -->
@@ -211,7 +224,7 @@
    </div>
    <!-- Слой4 конец -->
 
-    <!-- Слой5 начало -->
+   <!-- Слой5 начало -->
    <div class="layer5">
       <!-- Хэдер начало -->
        <div class="header-manyBlocks">

@@ -1,0 +1,128 @@
+%layer1__layers-common
+	position: absolute
+	width: 100%
+	height: 843px
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+	
+.layer1
+	&-animation-background-with-car
+		position: relative
+		display: none
+		&__layers1
+			animation: qqq 20s infinite linear
+			background-image: url("img/Layer1/Слой_1.png")
+			@extend %layer1__layers-common
+		&__layers2
+			animation: www 20s infinite linear  
+			background-image: url("../../img/Layer1/Слой_7.png")
+			@extend %layer1__layers-common
+		&__layers3
+			animation: eee 20s infinite linear 
+			background-image: url("../../img/Layer1/Слой_8.png")
+			@extend %layer1__layers-common
+		&__layers4
+			animation: rrr 20s infinite linear
+			background-image: url("../../img/Layer1/Слой_9.png")
+			@extend %layer1__layers-common
+
+	&-up
+		display: flex
+		flex-wrap: wrap
+		align-items: baseline
+		justify-content: space-evenly
+		align-items: center
+		color: white
+		margin-top: 18px
+		
+	&-middle
+		color: #ffffff
+		// font-family: "TT Norms"
+		font-size: 37px
+		font-weight: 500
+		text-transform: uppercase
+		display: flex
+		align-items: center
+		flex-direction: column
+		margin-top: 190px
+	&__EASY
+		color: #ffbf00
+		font-family: "TT Norms - Bold"
+		font-size: 89px
+		font-weight: 700
+	&__CAR
+		font-family: "TT Norms - Bold"
+		font-size: 89px
+		font-weight: 700
+	&__down
+		font-family: "TT Norms Medium"
+		font-weight: 500
+		letter-spacing: 1.86px
+		line-height: 74.76px
+	&__big-button
+		margin-left: auto
+		margin-right: auto
+		margin-top: 35px
+		margin-bottom: 280px
+		display: block
+
+@media (min-width: 320px)
+	.layer1-up
+		flex-direction: column
+	.layer1-middle
+		display: none
+	.layer1__big-button
+		margin-bottom: 80px
+		
+@media (min-width: 992px)
+	.layer1-up
+		flex-direction: row
+	.layer1-middle
+		display: flex
+	.layer1__big-button
+		margin-bottom: 180px	
+	
+@media (min-width: 1200px)
+	.layer1-animation-background-with-car
+		display: block
+	.layer1__big-button
+		margin-bottom: 280px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes qqq
+	0%, 25%, 100%
+		opacity: 0
+	12%
+		opacity: 1
+  
+@keyframes www
+	0%, 25%, 50%, 100%
+		opacity: 0
+	37%
+		opacity: 1  
+ 
+@keyframes eee
+	0%, 50%, 75%, 100%
+		opacity: 0
+	62%
+		opacity: 1  
+
+@keyframes rrr
+	0%, 50%, 75%, 100%
+		opacity: 0
+	87%
+		opacity: 1		

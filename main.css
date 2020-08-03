@@ -18,10 +18,7 @@ body {
 
 @media (min-width: 2000px) {
   .project-wrapper {
-    width: 2000px; }
-
-  body {
-    background-color: red; } }
+    width: 2000px; } }
 .block-wrapper-with-dark-background {
   background-color: #0A192C;
   position: relative; }

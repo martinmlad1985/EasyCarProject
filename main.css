@@ -24,7 +24,7 @@ body {
   position: relative; }
 
 .logotype {
-  background-image: url("../../img/Layer1/Logotype.png");
+  background-image: url("img/Layer1/Logotype.png");
   width: 229px;
   height: 76px; }
 
@@ -157,15 +157,15 @@ body {
   .layer1-animation-background-with-car__layers2 {
     -webkit-animation: www 20s infinite linear;
             animation: www 20s infinite linear;
-    background-image: url("../../img/Layer1/Слой_7.png"); }
+    background-image: url("img/Layer1/Слой_7.png"); }
   .layer1-animation-background-with-car__layers3 {
     -webkit-animation: eee 20s infinite linear;
             animation: eee 20s infinite linear;
-    background-image: url("../../img/Layer1/Слой_8.png"); }
+    background-image: url("img/Layer1/Слой_8.png"); }
   .layer1-animation-background-with-car__layers4 {
     -webkit-animation: rrr 20s infinite linear;
             animation: rrr 20s infinite linear;
-    background-image: url("../../img/Layer1/Слой_9.png"); }
+    background-image: url("img/Layer1/Слой_9.png"); }
 .layer1-up {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -319,7 +319,7 @@ body {
   width: 375px;
   height: 275px; }
   .layer2__elem_img_1 {
-    background-image: url("../../img/Layer2/Слой_11.png");
+    background-image: url("img/Layer2/Слой_11.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -327,7 +327,7 @@ body {
     .layer2__elem_img_1:after {
       content: "1"; }
   .layer2__elem_img_2 {
-    background-image: url("../../img/Layer2/Слой_10.png");
+    background-image: url("img/Layer2/Слой_10.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -335,7 +335,7 @@ body {
     .layer2__elem_img_2:after {
       content: "2"; }
   .layer2__elem_img_3 {
-    background-image: url("../../img/Layer2/Слой_14.png");
+    background-image: url("img/Layer2/Слой_14.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -343,7 +343,7 @@ body {
     .layer2__elem_img_3:after {
       content: "3"; }
     .layer2__elem_img_3:hover {
-      background-image: url("../../img/Layer2/Слой_1414.png"), url("../../img/Layer2/Слой_14.png");
+      background-image: url("img/Layer2/Слой_1414.png"), url("img/Layer2/Слой_14.png");
       background-repeat: no-repeat;
       background-position: center, center; }
 .layer2__elem2 {
@@ -487,37 +487,37 @@ body {
     width: 250px;
     margin-bottom: 100px; }
   .layer4__img1 {
-    background-image: url("../../img/Layer4/img1.png"); }
+    background-image: url("img/Layer4/img1.png"); }
     .layer4__img1:hover {
-      background-image: url("../../img/Layer4/img11.png"); }
+      background-image: url("img/Layer4/img11.png"); }
   .layer4__img2 {
-    background-image: url("../../img/Layer4/img2.png"); }
+    background-image: url("img/Layer4/img2.png"); }
     .layer4__img2:hover {
-      background-image: url("../../img/Layer4/img21.png"); }
+      background-image: url("img/Layer4/img21.png"); }
   .layer4__img3 {
-    background-image: url("../../img/Layer4/img3.png"); }
+    background-image: url("img/Layer4/img3.png"); }
     .layer4__img3:hover {
-      background-image: url("../../img/Layer4/img31.png"); }
+      background-image: url("img/Layer4/img31.png"); }
   .layer4__img4 {
-    background-image: url("../../img/Layer4/img4.png"); }
+    background-image: url("img/Layer4/img4.png"); }
     .layer4__img4:hover {
-      background-image: url("../../img/Layer4/img41.png"); }
+      background-image: url("img/Layer4/img41.png"); }
   .layer4__img5 {
-    background-image: url("../../img/Layer4/img5.png"); }
+    background-image: url("img/Layer4/img5.png"); }
     .layer4__img5:hover {
-      background-image: url("../../img/Layer4/img31.png"); }
+      background-image: url("img/Layer4/img31.png"); }
   .layer4__img6 {
-    background-image: url("../../img/Layer4/img6.png"); }
+    background-image: url("img/Layer4/img6.png"); }
     .layer4__img6:hover {
-      background-image: url("../../img/Layer4/img61.png"); }
+      background-image: url("img/Layer4/img61.png"); }
   .layer4__img7 {
-    background-image: url("../../img/Layer4/img7.png"); }
+    background-image: url("img/Layer4/img7.png"); }
     .layer4__img7:hover {
-      background-image: url("../../img/Layer4/img71.png"); }
+      background-image: url("img/Layer4/img71.png"); }
   .layer4__img8 {
-    background-image: url("../../img/Layer4/img8.png"); }
+    background-image: url("img/Layer4/img8.png"); }
     .layer4__img8:hover {
-      background-image: url("../../img/Layer4/img81.png"); }
+      background-image: url("img/Layer4/img81.png"); }
   .layer4__text {
     width: 159px;
     height: 46px;
@@ -553,12 +553,12 @@ body {
   .layer5__map1 {
     width: 320px;
     height: 200px;
-    background-image: url("../../img/Layer5/img1.png");
+    background-image: url("img/Layer5/img1.png");
     background-size: cover; }
   .layer5__map2 {
     width: 320px;
     height: 200px;
-    background-image: url("../../img/Layer5/img2.png");
+    background-image: url("img/Layer5/img2.png");
     background-size: cover; }
   .layer5__text-wrapper {
     width: 281px;

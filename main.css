@@ -18,7 +18,10 @@ body {
 
 @media (min-width: 2000px) {
   .project-wrapper {
-    width: 2000px; } }
+    width: 2000px; }
+
+  body {
+    background-color: red; } }
 .block-wrapper-with-dark-background {
   background-color: #0A192C;
   position: relative; }
@@ -66,19 +69,19 @@ body {
   margin-left: 8px;
   margin-right: 8px; }
   .social-network_name_viber {
-    background-image: url("../../img/Layer1/viber.png");
+    background-image: url("img/Layer1/viber.png");
     background-color: #9069ae; }
   .social-network_name_phone {
-    background-image: url("../../img/Layer1/phone.png");
+    background-image: url("img/Layer1/phone.png");
     background-color: #57d164; }
   .social-network_name_telegram {
-    background-image: url("../../img/Layer1/telegram.png");
+    background-image: url("img/Layer1/telegram.png");
     background-color: #31a9de; }
   .social-network_name_vk {
-    background-image: url("../../img/Layer1/vk.png");
+    background-image: url("img/Layer1/vk.png");
     background-color: #4a76a8; }
   .social-network_name_facebook {
-    background-image: url("../../img/Layer1/facebook.png");
+    background-image: url("img/Layer1/facebook.png");
     background-color: #455890; }
 
 .big-button {
